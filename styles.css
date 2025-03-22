@@ -1,7 +1,7 @@
 /* Basic styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffe6f2;
+    background-color: #ffe6f2; /* Change background color if you want */
     color: #333;
     text-align: center;
     margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #ff66b2;
+    background-color: #FFA700; /* Chrome yellow for the header */
     padding: 20px;
     color: white;
 }
@@ -41,7 +41,7 @@ p {
 }
 
 .love-note {
-    background-color: #ffccff;
+    background-color: #ffccff; /* Light pink background for the love note */
     padding: 20px;
     margin-top: 30px;
 }
@@ -50,14 +50,20 @@ p {
     margin-top: 50px;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ff66b2;
+    color: #FFA700; /* Chrome yellow for the countdown text */
 }
 
 footer {
-    background-color: #ff66b2;
+    background-color: #FFA700; /* Chrome yellow for the footer */
     padding: 10px;
     color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Optional: hover effect for images */
+.photo-gallery img:hover {
+    transform: scale(1.1); /* Zoom effect */
+    transition: transform 0.3s ease;
 }
